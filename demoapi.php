@@ -2,8 +2,8 @@
 /*Declare your variables*/
   $items = array();
 /*populate your array with a list of dummy strings */
-   for($i = 0;  $i < 10; $i++){
-   $items[$i] = "this is message $i";
+   for($i = 0;  $i < 12; $i++){
+   $items[$i] = "this is message testing $i";
   }
   
   /*set the header type for output*/
