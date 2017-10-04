@@ -40,6 +40,10 @@ $('#message').html("Jquery is loaded with real movie data - version 3 - daniel")
             html+= jsonData[i].rating;
             html+= "</td>";
       
+            html+= "<td>";
+            html+= jsonData[i].runtime;
+            html+= "</td>";
+      
             html+= "</tr>";
         $('#moviePanel').append(html);
       
