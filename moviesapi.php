@@ -12,6 +12,8 @@
     /*declare your variable */
     $movies = array ();
     
+
+    /*add a movie */
     $movie = new movie();
     $movie->director = "Christopher Nolan";
     $movie->title = "Batman";
