@@ -14,7 +14,7 @@
   
      $jsonOutput = json_encode($items);
   
-  /* output the json data* / 
+  /* output the json data */ 
        
        echo $jsonOutput;
    
